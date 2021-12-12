@@ -86,7 +86,24 @@
 .img-fast-g {
     width: 450px;
     height: 450px;
-    float: right;
     padding-top: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+}
+
+.services {
+    text-align: center;
+    height: 100vh;
+}
+
+.services-fast-list {
+    background-color: #F6DEA5;
+    width: 300px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.services-menu-list {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
