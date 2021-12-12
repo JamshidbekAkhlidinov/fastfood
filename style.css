@@ -149,10 +149,12 @@ body {
 
 .food {
     padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .food-list {
-    width: 390px;
+    width: 350px;
     background-color: white;
     /* padding: 20px; */
     border-radius: 15px;
@@ -162,7 +164,11 @@ body {
 .food-text {
     padding-left: 20px;
     font-family: 'Poppins300';
-    width: 380px;
+    /* width: 380px; */
+}
+
+.food-img {
+    width: 350px;
 }
 
 .food-title {
@@ -179,4 +185,13 @@ body {
 .food-space {
     display: flex;
     justify-content: space-between;
+}
+
+.maps {
+    width: 20px;
+    height: 20px;
+}
+
+.btn3 {
+    margin-left: 80px;
 }
