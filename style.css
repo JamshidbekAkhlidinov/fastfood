@@ -10,6 +10,10 @@
     font-weight: 900;
 }
 
+body {
+    background-color: #E5E5E5;
+}
+
 * {
     padding: 0%;
     margin: 0%;
@@ -83,6 +87,11 @@
     box-shadow: -10px 10px 20px #FFD163;
 }
 
+.fast-img {
+    /* width: 300px; */
+    height: 300px;
+}
+
 .img-fast-g {
     width: 450px;
     height: 450px;
@@ -92,7 +101,12 @@
 
 .services {
     text-align: center;
-    height: 100vh;
+    height: 680px;
+    background-image: url(./img/Path\ 22.png), url(./img/Ellipse\ 5.png), url(.//img/Ellipse\ 6.png);
+    background-size: 600px 600px, 400px 400px, 60px 60px;
+    background-position-x: 12%, 90%, 50%;
+    background-position-y: 0%, 80%, 90%;
+    background-repeat: no-repeat;
 }
 
 .services-fast-list {
@@ -106,4 +120,12 @@
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+.services-title {
+    font-size: 25px;
+}
+
+.services-text {
+    padding-top: 120px;
 }
